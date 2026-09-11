@@ -25,14 +25,14 @@ app.post("/api/message/",(req,res) =>{
 }) ;
 
 app.post("/", (req, res) => {
-  res.body({
+  res.json({
     name: "Sami Abbasi",
     role: "Hy Everyone",
     learning : "React"
   });
 });
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
   console.log(`🔥 Server running on http://localhost:${PORT}`);
