@@ -15,7 +15,6 @@ import childSafetyImage00 from "../images/Fitbond.webp";
 import childSafetyImage02 from "../images/Howwe.webp";
 import childSafetyImage03 from "../images/Revme.webp";
 import childSafetyImage04 from "../images/LittleBird.webp";
-import bars from '../images/bars_recolored.png';
 import FAQSection from "../FAQSection";
 function Home() {
   
@@ -335,21 +334,21 @@ function Home() {
             <img src={aiAppImage} alt="Blog 1" />
             <span className="blog-tag">AI</span>
             <h3>How Much Does AI App Development Cost?</h3>
-            <a href="#">Read more →</a>
+            <a href="/blog">Read more →</a>
           </div>
 
           <div className="blog-card">
             <img src={fitnessImage} alt="Blog 2" />
             <span className="blog-tag">FITNESS</span>
             <h3>What Does It Cost to Build a Fitness App?</h3>
-            <a href="#">Read more →</a>
+            <a href="/blog">Read more →</a>
           </div>
 
           <div className="blog-card">
             <img src={realEstateImage} alt="Blog 3" />
             <span className="blog-tag">REAL ESTATE</span>
             <h3>How to Build a Real Estate App?</h3>
-            <a href="#">Read more →</a>
+            <a href="/blog">Read more →</a>
           </div>
 
         </div>

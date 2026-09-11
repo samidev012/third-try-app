@@ -34,19 +34,19 @@ function Footer() {
             {/* Social Icons */}
             <div className="footer-socials">
 
-              <a href="#" aria-label="Facebook">
+              <a href="https://www.facebook.com/" aria-label="Facebook">
                 f
               </a>
 
-              <a href="#" aria-label="Instagram">
+              <a href="https://www.instagram.com/" aria-label="Instagram">
                 ◎
               </a>
 
-              <a href="#" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/" aria-label="LinkedIn">
                 in
               </a>
 
-              <a href="#" aria-label="GitHub">
+              <a href="https://github.com/" aria-label="GitHub">
                 &lt;/&gt;
               </a>
 
